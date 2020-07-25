@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Logic/Language.fs" />
+    <Compile Include="Logic/Core.fs" />
+    <Compile Include="Logic/Unification.fs" />
+    <Compile Include="Logic/Utils.fs" />
+    <Compile Include="Storage/Index.fs" />
+    <Compile Include="Storage/Implementations/Dummy.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Collections.Immutable" Version="1.7.1" />
+  </ItemGroup>
+</Project>
