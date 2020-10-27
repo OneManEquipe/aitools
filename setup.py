@@ -23,6 +23,6 @@ setup(
         "License :: OSI Approved :: MIT License",
     ],
     install_requires=[
-        "janus==0.5.0"
+        "janus==0.6.1"
     ]
 )
